@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:Rajdhani;
+}
+
+header{
+    background-image: url('img/close-up-da-mesa-de-madeira-superior-no-conceito-de-fundo-de-parede-escura-para-publicidade-generative-ai.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 2%; 
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-image: url('img/piso-de-madeira-marrom.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section .feijoada{
+    align-content: center;
+    width: 40%;
+    text-align: justify;
+    font-size: 1.2em;
+    color: aliceblue;
+    background-color: #00000098;
+    margin: 4% 1%;
+    border-radius: 2%;
+}
+.feijoada h1, p{
+    margin: 5%;
+}
+.feijoada h1{
+    background-color: rgba(255, 255, 0, 0.733);
+    text-transform: uppercase;
+    color: #f00;
+    border-radius: 5%;
+    text-align: center;
+}
+.feijoada .funcionamento{
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+.feijoada .pedido{
+    text-align: center;
+    font-weight: bolder;
+}
+.buttons{
+    text-align: center;
+}
+a{
+    margin: 3%;
+}
+.footer{
+    font-size: 0.8em;
+}
+@media (max-width: 500px) {
+    body{
+        font-family:Rajdhani;
+        width: 100%;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    section .feijoada{
+        align-content: center;
+        width: 100%;
+        text-align: justify;
+        font-size: 1.2em;
+        color: aliceblue;
+        background-color: #00000098;
+        margin: 2% 1%;
+        border-radius: 2%;
+    }
+  }
